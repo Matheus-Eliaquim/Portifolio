@@ -14,3 +14,5 @@ in parallel. These efforts aim to enhance my knowledge and build a stronger theo
 
 # Como executar
 Compile o código:
+
+Compile the code:
