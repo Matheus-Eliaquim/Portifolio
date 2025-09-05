@@ -1,14 +1,14 @@
 # Meu Portifólio 🚀
 
-1- Português
+1- Português:
 Este portifolio se trata de atividades desenvolvidas em sala de aula na Graduação de 
 Analise e desenvolvimento de sistemas, e também em alguns cursos que estou fazendo em paralelo,
-para aprimorar meus conhecimentos, e desenvolver maior embasamento teorico.
+para aprimorar meus conhecimentos, e desenvolver maior embasamento teorico/n/n.
 
-2- English
+2- English:
 Este portifolio se trata de atividades desenvolvidas em sala de aula na Graduação de 
 Analise e desenvolvimento de sistemas, e também em alguns cursos que estou fazendo em paralelo,
-para aprimorar meus conhecimentos, e desenvolver maior embasamento teorico.
+para aprimorar meus conhecimentos, e desenvolver maior embasamento teorico/n/n.
 
 # Como executar
 Compile o código:
