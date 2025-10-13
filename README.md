@@ -10,14 +10,10 @@ utilizando programação como ferramenta para criar soluções práticas e funci
 
 1- CALCULADORA DE FITA LED 
 
-Descrição: Este projeto foca em desenvolver uma solução para lojas especializadas em produtos de iluminação, que é o calculo da quantidade de rolos de fita led 
-que devem ser vendidos e quantas fontes serão utilizadas no total. Dentro de um projeto de iluminação que é utilizado fita led é necessario calcular por local 
-de utilização quantas fitas são usadas e quantas fontes serão necessarias para que chegue a quatidade correta de energia a fita led designada, mas dentro do nicho 
-venda de iluminação não há um sofware que faça isso de forma automatica, então os vendedores precisam fazer todo esse calculo de forma manual, oque aumenta a possibilidade
-de erro no quantitativo final. Esse Codigo visa melhorar esse ponto no ato da venda de fitas led e fontes para fita led, ja que nele o usuario pode insario a quantidade individual
-de fita que será utilizada em cada local do projeto de iluminação e o proprio codigo irá calcular quantas fontes serão necessarias para ligar a fita da maneira indicada pelos fabricantes,
-alem disso o codigo também irá calcular quantos rolos de fita serão necessarios para que seja feito o projeto luminotecnico e quantas fontes no total serão utilizadas para ligar 
-as fitas led.
+Descrição: Este projeto tem como objetivo desenvolver uma solução voltada para lojas especializadas em produtos de iluminação. Ele realiza o cálculo da quantidade de rolos de fita LED que devem ser vendidos, bem como o número total de fontes necessárias.
+Em projetos de iluminação que utilizam fita LED, é essencial calcular, por local de aplicação, quantos metros de fitas serão usadas e quantas fontes serão necessárias para fornecer a quantidade correta de energia a cada fita designada. No nicho de vendas de iluminação, não há atualmente um software que execute esse cálculo de forma automática. Por isso, os vendedores precisam realizar todo o processo manualmente, o que aumenta significativamente a possibilidade de erros no quantitativo final.
+Este código foi criado para melhorar esse aspecto no momento da venda de fitas e fontes para LED. Nele, o usuário pode inserir a quantidade individual de fita que será utilizada em cada ponto do projeto de iluminação, e o próprio sistema calculará automaticamente quantas fontes serão necessárias para alimentar as fitas conforme as especificações dos fabricantes. Além disso, o código também calcula quantos rolos de fita serão necessários para a execução do projeto luminotécnico e o total de fontes que serão utilizadas.
+
 
 Linguagem: JAVA
 
