@@ -17,16 +17,16 @@ venda de iluminação não há um sofware que faça isso de forma automatica, en
 de erro no quantitativo final. Esse Codigo visa melhorar esse ponto no ato da venda de fitas led e fontes para fita led, ja que nele o usuario pode insario a quantidade individual
 de fita que será utilizada em cada local do projeto de iluminação e o proprio codigo irá calcular quantas fontes serão necessarias para ligar a fita da maneira indicada pelos fabricantes,
 alem disso o codigo também irá calcular quantos rolos de fita serão necessarios para que seja feito o projeto luminotecnico e quantas fontes no total serão utilizadas para ligar 
-as fitas led
+as fitas led.
 
 Linguagem: JAVA
 
 
 # Tecnologias
 
-* Java;
-* GitHub;
-* VS Code;
+* Java
+* GitHub
+* VS Code
   
 
 # Como executar
