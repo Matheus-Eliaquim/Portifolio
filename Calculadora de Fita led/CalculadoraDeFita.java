@@ -7,7 +7,7 @@ public class CalculadoraDeFita{
         //cria um objeto que ler dados inseridos pelo usuario no console
         Scanner scanner = new Scanner(System.in);
 
-        //parametros iniciais
+        //parametros iniciais do codigo.
         int fontes = 5;
         int tamanhoRolo = 0;
         int fonte24w = 0;
@@ -40,7 +40,7 @@ public class CalculadoraDeFita{
     } 
 
         //especifique a potencia da fita em W ou watts
-        System.out.println("Digite a potencia da fita. (exemplo: 12.00)");
+        System.out.println("Digite a potencia (W/m) da fita. (exemplo: 12.00)");
         double potenciaFita = scanner.nextDouble();
         System.out.print("\n"); //espaço entre linhas
 
@@ -160,6 +160,8 @@ public class CalculadoraDeFita{
         } else {
             System.out.print("");
         }
+
+        scanner.close();
 
     }
 }
