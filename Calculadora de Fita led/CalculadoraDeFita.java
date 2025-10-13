@@ -50,8 +50,9 @@ public class CalculadoraDeFita{
         for(double i = 1; i > 0; i++){
 
         //especificação do tamanho da fita para calculo de rolos totais e parciais e de fontes totais e paciais
-        System.out.println("Digite o tamanho da fita. (exemplo: 12.00)");
-        System.out.println("Digita 0 Caso não queira adicionar mais nenhuma fita led.");
+        // a potencia da fita é em Whats ou W, mas aqui sará usado só numeros para facilitar o uso e desenvolvimento do codigo
+        System.out.println("Digite o tamanho da fita. (exemplo: 12.00)"); 
+        System.out.println("Digite 0 Caso não queira adicionar mais nenhuma fita led.");
         double tamanhoFita = scanner.nextDouble();
         //condição para continuar ou parar a repetição do codigo
         if (tamanhoFita > 0) {
@@ -64,7 +65,7 @@ public class CalculadoraDeFita{
         double quantidadefontes = tamanhoFita / fontes;     
         int qtdFontes = (int) Math.ceil(quantidadefontes);
         double potenciaFontes = ((tamanhoFita * potenciaFita) / qtdFontes) * 1.2;
-        double qtdrolos = tamanhoFita / tamanhoRolo;
+       
           
         //potencia da fonte sem arredondamentos  
         System.out.printf("\n");
@@ -88,8 +89,8 @@ public class CalculadoraDeFita{
         } 
 
         //resultado
-        System.out.printf("Especificação de rolos e fontes para %.2f metros de fita led, com %.2f watts.\n", tamanhoFita, potenciaFita);
-        System.out.printf("%.2f rolos de 3.00 metros.\n", qtdrolos);
+        //a saida ira exibir a metragem escolhida e quantas fontes serão utilizadas para essa quantidade de fita led
+        System.out.printf("%.2f metros de fita led %.2f W/m.\n", tamanhoFita, potenciaFita);
         System.out.printf("%s fontes de %s watts.\n\n", qtdFontes, potenciaFonteArredondada);
 
         //acumulo para calculo do total de fontes utilizadas
@@ -114,15 +115,15 @@ public class CalculadoraDeFita{
 
         System.out.printf("\n"); // linha de espaço
         
-        //Variavel para calcular quantos rolos de fita serão necessarios
+        //Variavel para calcular quantos rolos de fita serão necessarios para toda a venda
         double rolosUsadosReal = totalMetros / tamanhoRolo;
         int totalRolos = (int) Math.ceil(rolosUsadosReal);
 
-        //saida com o total de fita led a ser usado
+        //saida com o total de rolos fita led a ser usado
         System.out.println("****METRAGEM TOTAL DE FITA LED E QUANTIDADE DE ROLOS****");
-        System.out.printf("%.2f metros e serão necessarios %s rolos.\n\n", totalMetros, totalRolos);
+        System.out.printf("%.2f metros e serão necessarios %s rolos de %s metros.\n\n", totalMetros, totalRolos, tamanhoRolo);
 
-        //saida com o total de pontes utilizadas
+        //saida com o total de pontes utilizadas no projeto
         System.out.printf("****FONTES UTILIZADAS****\n");
         if (fonte24w > 0) {
             System.out.printf("%s fontes 24w\n", fonte24w);
