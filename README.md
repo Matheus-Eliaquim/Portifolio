@@ -8,7 +8,7 @@ utilizando programação como ferramenta para criar soluções práticas e funci
 
 # Projetos
 
-1- CALCULADORA DE FITAS LED 
+1- CALCULADORA DE FITA LED 
 
 Descrição: Este projeto foca em desenvolver uma solução para lojas especializadas em produtos de iluminação, que é o calculo da quantidade de rolos de fita led 
 que devem ser vendidos e quantas fontes serão utilizadas no total. Dentro de um projeto de iluminação que é utilizado fita led é necessario calcular por local 
